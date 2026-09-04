@@ -27,6 +27,7 @@ accessModel:
   confidence: medium
   source:
   - plans
+  - {url: 'https://donnees.ville.montreal.qc.ca', status: 302, note: 'declared website redirects to https://donnees.montreal.ca/ — a different registrable domain (qc.ca -> montreal.ca), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/donnees-ville-montreal-qc-ca.png
