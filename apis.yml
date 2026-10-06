@@ -44,7 +44,7 @@ tags:
   - Open Data Portal
   - Canada
 created: '2026-06-04'
-modified: '2026-06-04'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: donnees-ville-montreal-qc-ca:catalog
@@ -68,6 +68,8 @@ apis:
       - type: x-api-endpoint
         url: https://donnees.ville.montreal.qc.ca/api/3/action/status_show
 common:
+  - url: https://donnees.montreal.ca/blog
+    type: Blog
   - type: DomainSecurity
     url: security/donnees-ville-montreal-qc-ca-domain-security.yml
   - type: Website
